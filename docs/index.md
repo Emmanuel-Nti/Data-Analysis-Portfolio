@@ -1,7 +1,4 @@
 
-# Data Analysis Portfolio
-
-
 # Project: Business Review of Markets Across the World Economny
 <p align ="center">
    <img src = "image/dashboard.PNG" width="1000" 
