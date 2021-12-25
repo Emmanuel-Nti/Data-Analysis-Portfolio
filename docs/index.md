@@ -1,4 +1,8 @@
-
+<p align ="center">
+   <img src = "image/nti.PNG"  width="1000" 
+     height="450">
+ </p>
+ 
 # Project: Business Review of Markets Across the World Economny
 <p align ="center">
    <img src = "image/dashboard.PNG" width="1000" 
@@ -10,10 +14,6 @@
 ![](https://img.shields.io/badge/Tableau-Public-informational?style=flat&color=2bbc8a)
 
 # Project: Business Metrics of Yandex Afisha
-<p align ="center">
-   <img src = "image/yandex-metrica.jpg"  width="1000" 
-     height="450">
- </p>
  As a Junior Data Analyst in the analytical department at Yandex. I analyzed the business metrics of the Yandex Afisha app to help the marketing experts optimize marketing expenses.
  
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/business_metrics_nti.ipynb) 
