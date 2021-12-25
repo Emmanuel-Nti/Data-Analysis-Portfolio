@@ -1,2 +1,2 @@
 # Data Analysis Portfolio
-## [See All Projects](https://github.com/Emmanuel-Nti)
+## See all [Projects](https://github.com/Emmanuel-Nti)
