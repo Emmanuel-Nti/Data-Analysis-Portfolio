@@ -15,6 +15,7 @@
      height="450">
  </p>
  As a Junior Data Analyst in the analytical department at Yandex. I analyzed the business metrics of the Yandex Afisha app to help the marketing experts optimize marketing expenses.
+ 
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/business_metrics_nti.ipynb) 
 
 
@@ -40,7 +41,7 @@ June 2018 cohort had the least LTV.
  </p>
  
  
-## Customer Acquisition Cost(CAC) Cohort Analysis
+## Customer Acquisition Cost (CAC) Cohort Analysis
 CAC per cohorts shows a uniform but different costs for each cohort.The August 2017 cohort had the highest cost in a given month while the May 2018 cohort had the least.
 <p align ="center">
    <img src = "image/cac.PNG">
