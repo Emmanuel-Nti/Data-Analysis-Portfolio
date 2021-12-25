@@ -1,6 +1,6 @@
 <p align ="center">
-   <img src = "image/nti.PNG"  width="1000" 
-     height="450">
+   <img alt= "gif" src = "image/Business-nti.gif"  width="1000" 
+     height="650">
  </p>
  
 # Project: Business Review of Markets Across the World Economny
