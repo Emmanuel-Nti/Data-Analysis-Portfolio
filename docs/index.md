@@ -2,7 +2,7 @@
 # Project: Business Review: Markets Across the World Economny
 A report on customers contribution to profitability and unprofitability.
 <p align ="center">
-   <img src = "image/dashboard.PNG" width="900" 
+   <img src = "image/dashboard.PNG" width="800" 
      height="400"> 
 </p>
 
