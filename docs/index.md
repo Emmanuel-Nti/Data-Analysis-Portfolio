@@ -3,7 +3,7 @@
 A report on customers contribution to profitability and unprofitability.
 <p align ="center">
    <img src = "image/dashboard.PNG" width="800" 
-     height="400"> 
+     height="600"> 
 </p>
 
 #### Software and Tools
