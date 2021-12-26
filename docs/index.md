@@ -118,7 +118,7 @@ The funnel show stages of customers behaviour on the app. The group sizes at eac
 ![](https://img.shields.io/badge/Scipy-Datetime-informational?style=flat&color=2bbc8a)
 
 # Project: Customer Churn Prediction and Retention Strategy
-I predicted customer churn for achain of gyms and came out with retention strategies.
+I predicted customer churn for a chain of gyms and came out with retention strategies.
 
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/customer_churn_prediction_and_retention_strategy/blob/master/customer_churn_nti.ipynb)
 
