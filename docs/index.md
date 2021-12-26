@@ -160,8 +160,8 @@ Targeting the top 40% of the custmers, we would capture about 95% of clients who
 
 # Project: Product Range Analysis
 As a junior analyst at an online store that sells household goods, I analyzed the store's product range for the period 29/11/2018 to 07/12/2019.
-## [Detailed Project Link](https://nbviewer.org/github/Emmanuel-Nti/product_range_analysis/blob/master/final_project_e_nti.ipynb) 
-#### Top Additional Assortment Products
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/product_range_analysis/blob/master/final_project_e_nti.ipynb) 
+#### Products in Additional Assortment
 About 99% of the products were sold together with others.
 <p align ="center">
    <img src = "image/products.PNG">
@@ -196,6 +196,40 @@ About 99% of the products were sold together with others.
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Numpy-Itertools-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scikit_learn-Collectionsinformational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scikit_learn-Collections-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)  
 
+# Project: A/B Test for an International Online Store
+I have received an analytical task from an international online store. I have to launch an A/B test and give insights into changes related to the introduction of an improved recommendation system.
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/ab_test_for_an_international_online_store/blob/master/ab_test_for_international_store.ipynb)
+ 
+## Customer Journey
+<p align ="center">
+   <img src = "Customer Journey.png">
+ </p>
+ 
+## Revenue From Each Group
+Cummulative revenue from group A exceeds group B
+ <p align ="center">
+   <img src = "newplot.PNG">
+ </p>
+ 
+## General Findings
+- EU participants dominated all other regions in the sample.
+- The maximum order total for purchase events is about $500.00, and the minimum is about $5.00, with a mean of about $23.88 and a standard deviation of about 72.22.
+- About 66% of users proceed from login to the product page; about 50% of those at the product page proceed to purchase.
+- About 15% of customers proceed to purchase without putting the product in the cart.
+- About 33.33% of users convert.
+- In the initial test by my predecessor, 441 users belonged in both groups, and 446 users participated in both test.
+- The highest number of events occured on the 21st December, 2020 (14044 events).
+- 8961 participants; representing about 23% of the new users on or before 21st December 2020, from the EU region were used for the test.
+- There is statistically significant difference between groups A and B which implies the test was successful.
+
+## Recommendations
+- Stop the test, there is significant difference between the groups. However, group A significantly exceeds group B in number of customers and revenue. 
+- Thus, there will be reduction in purchase with the introduction of the improved recommendation system; do not introduce the recommendation system.
+
+-#### Software and Tools
+![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scipy-Plotly-informational?style=flat&color=2bbc8a)  
