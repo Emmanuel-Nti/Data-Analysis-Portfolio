@@ -308,4 +308,3 @@ The PS2 platform is the most profitable plaform, the PCFX platform is the least 
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Requests-informational?style=flat&color=2bbc8a)  
-
