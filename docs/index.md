@@ -211,7 +211,7 @@ I have received an analytical task from an international online store. I have to
 #### Revenue From Each Group
 Cummulative revenue from group A exceeds group B
  <p align ="center">
-   <img src = "image/newplot.PNG">
+   <img src = "image/newplot.png">
  </p>
  
 #### General Findings
