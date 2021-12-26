@@ -244,7 +244,7 @@ The decile analysis shows that the top 10% of customers have about 80% probabili
 Customers in deciles 1-6 have more than 50% chance that their credit cards would be approved. 
 Customers in deciles 7-10 have less than 50 % chance of getting their credit cards approved.
 <p align ="center">
-   <img src = "images/image.PNG">
+   <img src = "image/image.PNG">
  </p>
  
 #### General Findings
