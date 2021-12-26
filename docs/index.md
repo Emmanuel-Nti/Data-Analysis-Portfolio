@@ -230,7 +230,7 @@ Cummulative revenue from group A exceeds group B
 - Stop the test, there is significant difference between the groups. However, group A significantly exceeds group B in number of customers and revenue. 
 - Thus, there will be reduction in purchase with the introduction of the improved recommendation system; do not introduce the recommendation system.
 
-- #### Software and Tools
+#### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Plotly-informational?style=flat&color=2bbc8a)  
@@ -271,27 +271,21 @@ Customers in deciles 7-10 have less than 50 % chance of getting their credit car
 
 # Project: Video Games Sales Analysis 
 I analyzed video games sales data to identify patterns that determine whether a game succeeds or not.
-# Video Games Sales Data Analysis
-<p align ="center">
-   <img src = "images/video.jpg" width="1000" 
-     height="450">
- </p>
- 
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/video_games_sales_analysis/blob/master/Video_Games_Sales_Analysis_Nti.ipynb) 
 
-## Number of Games Released in a Year
+#### Number of Games Released in a Year
 The number of games released in a year peaked in 2008 and significantly started falling from 2010.
 <p align ="center">
    <img src = "image/lollypop.PNG">
  </p>
 
-## Profitable and Non-profitable Platforms.
+#### Profitable and Non-profitable Platforms.
 The PS2 platform is the most profitable plaform, the PCFX platform is the least non profitable plaform.
 <p align ="center">
    <img src = "image/platforms.PNG" >
  </p>
  
-## General Findings
+#### General Findings
 - Before 1994, there was no year that more than 100 games were released. However, from 1994 to 2016, more than 100 games have been released every year.
 - PS, PS2, and Nintendo DS used to be popular platforms but now have zero sales.
 - Generally, it takes about a year or less for new platforms to appear. On average, old plaforms take about 8 years to fade.
