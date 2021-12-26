@@ -194,10 +194,11 @@ About 99% of the products were sold together with others.
 - Regency cakestand 3 tier is the leading revenue generator on aggragate but the most cancelled product order. Pay much attention to this product. For instance, why does it often get cancelled? If the cancellation rate is minimized, revenue would be maximized.
 
 #### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Itertools-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Python-MS_PowerPoint-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Pandas-Numpy-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scikit_learn-Collections-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)  
+![](https://img.shields.io/badge/Itertools-Matplotlib-informational?style=flat&color=2bbc8a)
 
 # Project: A/B Test for an International Online Store
 I have received an analytical task from an international online store. I have to launch an A/B test and give insights into changes related to the introduction of an improved recommendation system.
@@ -263,7 +264,7 @@ Customers in deciles 7-10 have less than 50 % chance of getting their credit car
 - Do not approve the credit cards of customers in deciles 7-10.
 
 #### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Matplotlib-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scikit_learn-Scipy-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Python-MS_Excel-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Pandas-Numpy-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Seaborn-Scikit_plot-informational?style=flat&color=2bbc8a) 
