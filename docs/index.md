@@ -151,7 +151,7 @@ Targeting the top 40% of the custmers, we would capture about 95% of clients who
 - Pay much attention to customers in Clusters 3 and 4 as they are more prone to leaving.
 - Introduce loyalty programs.
 
-- #### Software and Tools
+#### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
