@@ -159,11 +159,11 @@ Targeting the top 40% of the custmers, we would capture about 95% of clients who
 
 # Project: Product Range Analysis
 As a junior analyst at an online store that sells household goods, I analyzed the store's product range for the period 29/11/2018 to 07/12/2019.
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/product_range_analysis/blob/master/final_project_e_nti.ipynb) 
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_e_nti.ipynb) 
 #### Products in Additional Assortment
 About 99% of the products were sold together with others.
 <p align ="center">
-   <img src = "image/products.PNG">
+   <img src = "image/product.PNG">
  </p>
 
 #### General Findings
