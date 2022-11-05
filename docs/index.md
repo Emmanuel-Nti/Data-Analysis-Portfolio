@@ -16,7 +16,7 @@
 # Project: Business Metrics of Yandex Afisha
  As a Junior Data Analyst in the analytical department at Yandex. I analyzed the business metrics of the Yandex Afisha app to help the marketing experts optimize marketing expenses.
  
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/business_metrics_nti.ipynb) 
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/business_metrics_e_nti.ipynb) 
 
 
 #### Daily Visits to Yandex Afisha
@@ -159,7 +159,7 @@ Targeting the top 40% of the custmers, we would capture about 95% of clients who
 
 # Project: Product Range Analysis
 As a junior analyst at an online store that sells household goods, I analyzed the store's product range for the period 29/11/2018 to 07/12/2019.
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_e_nti.ipynb) 
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_nti.ipynb) 
 #### Product Categorization Model
 A near perfect model was built to categorize the products.
 <p align ="center">
