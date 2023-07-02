@@ -79,7 +79,7 @@ May 2018 cohort had the lowest return on investments. No cohort has recouped 100
 
 # Project: Product Range Analysis
 As a junior analyst at an online store that sells household goods, I analyzed the store's product range for the period 29/11/2018 to 07/12/2019.
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_nti.ipynb) 
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_capstone.ipynb) 
 #### Product Categorization Model
 A near perfect model was built to categorize the products.
 <p align ="center">
