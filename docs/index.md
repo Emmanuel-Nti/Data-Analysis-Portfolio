@@ -89,7 +89,7 @@ As a junior analyst at an online store that sells household goods, I analyzed th
 A near-perfect model was built to categorize the products.
 <p align ="center">
    <img src = "image/model.PNG" width="900" 
-     height="500">
+     height="800">
  </p>
 
 #### Products in Additional Assortment
