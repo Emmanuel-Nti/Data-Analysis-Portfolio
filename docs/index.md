@@ -186,7 +186,7 @@ Customers can be optimally classified into 5 clusters
 Targeting the top 40% of the customers, we would capture about 95% of clients who would churn.
  <p align ="center">
    <img src = "image/cummulative gains.PNG" width="800" 
-     height="450">
+     height="500">
  </p>
  
 #### General Findings
