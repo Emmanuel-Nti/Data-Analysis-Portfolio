@@ -139,7 +139,7 @@ Investigated user behavior for a company's app, and conducted an A/A/B test to a
 #### User Distribution by Group
 All groups were present at all times for the test.
  <p align ="center">
-   <img src = "image/group distribution.PNG" width="800" 
+   <img src = "image/group distribution.PNG" width="850" 
      height="450">
  </p>
  
