@@ -16,7 +16,7 @@
 # Project: Business Metrics of Yandex Afisha
  As a Junior Data Analyst in the analytical department at Yandex. I analyzed the business metrics of the Yandex Afisha app to help the marketing experts optimize marketing expenses.
  
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/business_metrics_e_nti.ipynb) 
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/cohorts_analysis.ipynb) 
 
 
 #### Daily Visits to Yandex Afisha
@@ -28,7 +28,7 @@ The highest number of visits to the Yandex Afesha app was on a black friday (24.
 ####  User Retention by Cohort
 The June 2017 cohort had the highest retention rate as at month 11. By the first month (month 1), all cohorts had retention rates less than 10%. 
 <p align ="center">
-   <img src = "image/retention.PNG">
+   <img src = "image/retention.png">
  </p>
  
  
@@ -36,14 +36,14 @@ The June 2017 cohort had the highest retention rate as at month 11. By the first
 The June 2017 cohort had the longest duration of LTV; contributed the longest time. However, the September 2017 cohort had the highest LTV. 
 June 2018 cohort had the least LTV.
 <p align ="center">
-   <img src = "image/ltv.PNG">
+   <img src = "image/ltv.png">
  </p>
  
  
 #### Customer Acquisition Cost (CAC) Cohort Analysis
 CAC per cohorts shows a uniform but different costs for each cohort.The August 2017 cohort had the highest cost in a given month while the May 2018 cohort had the least.
 <p align ="center">
-   <img src = "image/cac.PNG">
+   <img src = "image/cac.png">
  </p>
  
  
@@ -51,7 +51,7 @@ CAC per cohorts shows a uniform but different costs for each cohort.The August 2
 The September 2017 cohort had the highest return on investments, followed by the June 2017 cohort. 
 May 2018 cohort had the lowest return on investments. No cohort has recouped 100% of invesments.
 <p align ="center">
-   <img src = "image/romis.PNG">
+   <img src = "image/romis.png">
  </p>
 
 #### General Findings
