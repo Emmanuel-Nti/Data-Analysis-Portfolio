@@ -29,7 +29,7 @@ The highest number of visits to the Yandex Afesha app was on a black friday (24.
 ####  User Retention by Cohort
 The June 2017 cohort had the highest retention rate as at month 11. By the first month (month 1), all cohorts had retention rates less than 10%. 
 <p align ="center">
-   <img src = "image/retention.png" width="1000" 
+   <img src = "image/retention.png" width="950" 
      height="550">
  </p>
  
@@ -38,7 +38,7 @@ The June 2017 cohort had the highest retention rate as at month 11. By the first
 The June 2017 cohort had the longest duration of LTV; contributed the longest time. However, the September 2017 cohort had the highest LTV. 
 June 2018 cohort had the least LTV.
 <p align ="center">
-   <img src = "image/ltv.png" width="1000" 
+   <img src = "image/ltv.png" width="950" 
      height="550">
  </p>
  
@@ -46,7 +46,7 @@ June 2018 cohort had the least LTV.
 #### Customer Acquisition Cost (CAC) Cohort Analysis
 CAC per cohorts shows a uniform but different costs for each cohort.The August 2017 cohort had the highest cost in a given month while the May 2018 cohort had the least.
 <p align ="center">
-   <img src = "image/cac.png" width="1000" 
+   <img src = "image/cac.png" width="950" 
      height="550">
  </p>
  
@@ -55,7 +55,7 @@ CAC per cohorts shows a uniform but different costs for each cohort.The August 2
 The September 2017 cohort had the highest return on investments, followed by the June 2017 cohort. 
 May 2018 cohort had the lowest return on investments. No cohort has recouped 100% of invesments.
 <p align ="center">
-   <img src = "image/romis.png" width="1000" 
+   <img src = "image/romis.png" width="950" 
      height="550">
  </p>
 
@@ -88,8 +88,8 @@ As a junior analyst at an online store that sells household goods, I analyzed th
 #### Product Categorization Model
 A near perfect model was built to categorize the products.
 <p align ="center">
-   <img src = "image/model.PNG" width="1000" 
-     height="550">
+   <img src = "image/model.PNG" width="900" 
+     height="500">
  </p>
 
 #### Products in Additional Assortment
@@ -139,8 +139,8 @@ Investigated user behavior for a company's app, and conducted an A/A/B test to a
 #### User Distribution by Group
 All groups were present at all times for the test.
  <p align ="center">
-   <img src = "image/group distribution.PNG" width="1000" 
-     height="550">
+   <img src = "image/group distribution.PNG" width="900" 
+     height="500">
  </p>
  
 #### User Behaviour
@@ -185,8 +185,8 @@ Customers can be optimally classified into 5 clusters
 #### Churn Prediction 
 Targeting the top 40% of the custmers, we would capture about 95% of clients who would churn.
  <p align ="center">
-   <img src = "image/cummulative gains.PNG" width="1000" 
-     height="550">
+   <img src = "image/cummulative gains.PNG" width="900" 
+     height="450">
  </p>
  
 #### General Findings
