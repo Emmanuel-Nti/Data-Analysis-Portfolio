@@ -1,10 +1,9 @@
 <p align="center">
   <img 
      alt="This has changed"
-     src="image/Cover.gif?v=7" 
+     src="image/Cover.gif?v=8" 
      width="1280" 
-     height="550"
-  >
+     height="550">
 </p>
 
 # Project: Customer Churn Prediction and Retention Strategy
