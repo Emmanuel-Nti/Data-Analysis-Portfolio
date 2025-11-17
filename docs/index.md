@@ -1,10 +1,11 @@
 <p align="center">
   <img 
-     alt="This has changed"
-     src="image/Cover.gif?v=8" 
+     alt="changes"
+     src="image/Cover_nti.gif?v=9" 
      width="1280" 
      height="550">
 </p>
+
 
 # Project: Customer Churn Prediction and Retention Strategy
 As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
