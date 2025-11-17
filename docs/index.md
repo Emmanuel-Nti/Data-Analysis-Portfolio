@@ -1,7 +1,7 @@
 <p align="center">
   <img 
-     alt="changes"
-     src="image/Cover_nti.gif?v=9" 
+     alt="Refresh"
+     src="image/Cover_nti.gif?v=1" 
      width="1280" 
      height="550">
 </p>
