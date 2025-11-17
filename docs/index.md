@@ -1,7 +1,11 @@
-<p align ="center">
-   <img alt= "gif" src = "image/cover.gif?v=2"  width="1280" 
-     height="550">
- </p>
+<p align="center">
+  <img 
+     alt="Portfolio Preview Animation"
+     src="image/Business-knti.gif?v=3" 
+     width="1280" 
+     height="550"
+  >
+</p>
 
  # Project: Customer Churn Prediction and Retention Strategy
 As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
