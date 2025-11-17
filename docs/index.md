@@ -25,23 +25,26 @@ Targeting the top 40% of the customers, we would capture about 95% of clients wh
      height="500">
  </p>
  
-#### General Findings
-- The total number of customers who live near the gym is 5 times more than customers who live far away. More than 50% of customers who do not stay closer to the gym churn while less than half of those who live closer to the gym churn.
-- More than half of the customers are employees of a partner company. About 50% of non-partner customers churn. Only about 20% of customers from partner companies churn.
-- Customers who joined the gym without promo friends are more than those who joined via promo friends. However, customers who join the gym via promo friends are less likely to churn than those who join without a promo friend.
-- Share of customers who signed a 1-month contract is more than those who signed 6 and 12 months contracts. No customer signed a three-month contract. More than 70% of customers who sign a 1-month contract churn. less than 5% of customers who sign 12 months contract churn.
-- Younger people are more likely to churn than older people.
-- Old customers are less likely to churn than new customers.
-- There are optimally 5 clusters of customers.
-- Churn rates differ among clusters. Clusters 3 and 4 are more prone to leaving, and clusters 1 and 2 are more loyal.
-- Overall, the churn rate is about 27%.
-- About 95% of churners are captured in the top 40% of the customers.
+#### 📊 General Findings
+- The total number of customers living near the gym is 5× higher than those living far away. >50% of distant customers churn, compared to <50% of nearby customers.
+- More than 50% of customers are employees of partner companies. ~50% of non-partner customers churn vs. ~20% of partner-company customers.
+- More customers join without promo friends, but those who join via promo friends churn significantly less.
+- Most customers sign 1-month contracts. >70% of 1-month contract customers churn, while <5% of 12-month contract customers churn. No customers choose 3-month contracts.
+- Younger customers churn more than older customers.
+- Longer-tenured customers churn less than new customers.
+- There are 5 optimal customer clusters.
+- Clusters 3 and 4 have the highest churn risk, while Clusters 1 and 2 show stronger loyalty.
+- Overall churn rate is about 27%.
+- About 95% of churners fall within the top 40% high-risk customers.
 
-#### Recommendations
-- Optimally minimize customer churn with a promotion package targeting the top 40% of customers; this can boost customer retention up to about 95%.
-- Encourage customers to sign 12 monthly contracts to reduce churn rate.
-- Pay much attention to customers in Clusters 3 and 4 as they are more prone to leaving.
-- Introduce loyalty programs.
+#### 🎯 Recommendations
+- Focus retention campaigns on the top 40% of high-risk customers, potentially retaining up to 95% of churners.
+- Promote and incentivize 12-month contracts to reduce churn among short-term members.
+- Provide proactive engagement and personalized offers for Clusters 3 and 4.
+- Introduce structured loyalty programs, including rewards and referral incentives.
+- Develop initiatives targeting younger customers, such as flexible plans or youth-focused promotions.
+- Strengthen or expand partner company relationships to increase the base of low-churn customers.
+- Encourage friend-referral or promo-friend campaigns to reduce churn among new members.
 
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
@@ -105,7 +108,7 @@ May 2018 cohort had the lowest return on investments. No cohort has recouped 100
      height="550">
  </p>
 
-#### General Findings
+#### 📊 General Findings
 - On average, about 907 people use the Yandex Afisha app every day, about 5621 people use it every week, and about 23228 people use it every month.
 - The highest daily visits occur on a Black Friday and the lowest daily visits occur on a holiday
 - On average, there is about 1 session per day, and each session lasts about 60 seconds.
@@ -119,7 +122,7 @@ May 2018 cohort had the lowest return on investments. No cohort has recouped 100
 - Platforms 1 and 2 bring in the highest revenue, and amongst the least in cost. They are the most profitable platforms.
 - The investments in all the sources are not yet worthwhile as the highest (source 1) is yet to recoup 100% of the investment. Also, investments by cohorts are not yet worthwhile.
 
-#### Recommendations
+#### 🎯 Recommendations
 - Invest more in sources 1 and 2, and cut costs on platform 3; without platform 3, revenues would exceed cost.
 - Introduce strategies to boost retention rate; improve user experience with the app.
 
@@ -144,7 +147,7 @@ About 99% of the products were sold together with others.
    <img src = "image/product.PNG">
  </p>
 
-#### General Findings
+#### 📊 General Findings
 - The highest unit price of a product cost £38,970.00.
 - The unit price had a mean of about £4.60.
 - Invoice number 573585 had the highest number of products ordered (1113 products). The top ten invoices show the customers of the store are mostly wholesalers.
@@ -164,7 +167,7 @@ About 99% of the products were sold together with others.
 - The difference between average revenue from home decorations and Kitchenware was statistically significant.
 - The average revenue generated by papercraft little birdie is not statistically and significantly different from the average revenue from all other products.
 
-#### Recommendations
+#### 🎯 Recommendations
 - Since about 99.7% of products are included in the additional assortment, there is a need to create a product recommendation system.
 - Home decorations is the third most purchased category but has the highest average revenue. Hence, invest more in advertising home decorations to boost purchase rates and revenue.
 - As plant and accessories are the least frequently purchased category, increase advertising investment to enhance orders.
@@ -195,7 +198,7 @@ The funnel shows stages of customers' behavior on the app. The group sizes at ea
    <img src = "image/customerjourney.png">
  </p>
  
-#### General Findings
+#### 📊 General Findings
 - In preparing the data for analysis, missing values were checked, and about 0.17% of duplicates were found in the data and deleted. 
 - I ensured no participant belong to more than one group, and columns were converted to the required data types.
 - There were 7551 unique users in the logs, 5 types of events, and 243713 events in the logs.
@@ -208,7 +211,7 @@ The funnel shows stages of customers' behavior on the app. The group sizes at ea
 - There is no statistically significant difference between groups A1 and A2 which implies the groups were split properly.
 - There is also no statistically significant difference between groups A and B which implies the test was not successful.
 
-#### Recommendation
+#### 🎯 Recommendation
 -  Stop the test, there is no difference between the groups. Hence, do not change the fonts for the entire app.
 
 #### Software and Tools
@@ -232,7 +235,7 @@ Cumulative revenue from Group A exceeds Group B
    <img src = "image/newplot.png">
  </p>
  
-#### General Findings
+#### 📊 General Findings
 - EU participants dominated all other regions in the sample.
 - The maximum order total for purchase events is about $500.00, and the minimum is about $5.00, with a mean of about $23.88 and a standard deviation of about 72.22.
 - About 66% of users proceed from login to the product page; about 50% of those at the product page proceed to purchase.
@@ -243,7 +246,7 @@ Cumulative revenue from Group A exceeds Group B
 - 8961 participants; representing about 23% of the new users on or before 21st December 2020, from the EU region were used for the test.
 - There is a statistically significant difference between groups A and B which implies the test was successful.
 
-#### Recommendations
+#### 🎯 Recommendations
 - Stop the test, there is a significant difference between the groups. However, group A significantly exceeds Group B in number of customers and revenue. 
 - Thus, there will be a reduction in purchases with the introduction of the improved recommendation system; do not introduce the recommendation system.
 
@@ -265,7 +268,7 @@ Customers in deciles 7-10 have less than a 50 % chance of getting their credit c
    <img src = "image/image.PNG">
  </p>
  
-#### General Findings
+#### 📊 General Findings
 - More than 50% of credit card applications get approved.
 - Males apply for credit cards more than females.
 - Most credit card applicants are between the ages of 20 and 40. This age group also has more credit card approvals than the other age groups.
@@ -276,7 +279,7 @@ Customers in deciles 7-10 have less than a 50 % chance of getting their credit c
 - Customers in deciles 1-6 have more than a 50% chance that their credit cards would be approved.
 - Customers in deciles 7-10 have less than a 50 % chance of getting their credit cards approved.
 
-#### Recommendations
+#### 🎯 Recommendations
 - Approve credit cards of customers in deciles 1-6.
 - Do not approve the credit cards of customers in deciles 7-10.
 
@@ -302,7 +305,7 @@ The PS2 platform is the most profitable platform, the PCFX platform is the least
    <img src = "image/platforms.PNG" >
  </p>
  
-#### General Findings
+#### 📊 General Findings
 - Before 1994, there was no year that more than 100 games were released. However, from 1994 to 2016, more than 100 games have been released every year.
 - PS, PS2, and Nintendo DS used to be popular platforms but now have zero sales.
 - Generally, it takes about a year or less for new platforms to appear. On average, old platforms take about 8 years to fade.
