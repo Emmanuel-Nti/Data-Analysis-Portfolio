@@ -7,7 +7,7 @@
 </p>
 
 
-# Project: Customer Churn Prediction and Retention Strategy
+# 📌 Project: Customer Churn Prediction and Retention Strategy
 As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
 
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/customer_churn_prediction_and_retention_strategy/blob/master/customer_churn_nti.ipynb)
@@ -52,7 +52,7 @@ Targeting the top 40% of the customers, we would capture about 95% of clients wh
 ![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)
 
-# Project: Business Review of Markets Across the World Economy
+# 📌 Project: Business Review of Markets Across the World Economy
 <p align ="center">
    <img src = "image/dashboard.PNG" width="1000" 
      height="650"> 
@@ -131,7 +131,7 @@ May 2018 cohort had the lowest return on investments. No cohort has recouped 100
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
 
-# Project: Product Range Analysis
+# 📌 Project: Product Range Analysis
 As a junior analyst at an online store that sells household goods, I analyzed the store's product range for the period 29/11/2018 to 07/12/2019.
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_capstone.ipynb) 
 #### Product Categorization Model
@@ -180,7 +180,7 @@ About 99% of the products were sold together with others.
 ![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)  
 ![](https://img.shields.io/badge/Itertools-Matplotlib-informational?style=flat&color=2bbc8a)
 
-# Project: A/A/B Test to Inform Business Decisions
+# 📌 Project: A/A/B Test to Inform Business Decisions
 Investigated user behavior for a company's app, and conducted an A/A/B test to assist managers to make an informed business decision.
 
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/aab_testing/blob/master/AAB_testing.ipynb)
@@ -220,7 +220,7 @@ The funnel shows stages of customers' behavior on the app. The group sizes at ea
 ![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Datetime-informational?style=flat&color=2bbc8a)
 
-# Project: A/B Test for an International Online Store
+# 📌 Project: A/B Test for an International Online Store
 I have received an analytical task from an international online store. I have to launch an A/B test and give insights into changes related to the introduction of an improved recommendation system.
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/ab_test_for_an_international_online_store/blob/master/ab_test_for_international_store.ipynb)
  
@@ -255,7 +255,7 @@ Cumulative revenue from Group A exceeds Group B
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Plotly-informational?style=flat&color=2bbc8a)  
 
-# Project: Predicting Credit Card Approvals
+# 📌 Project: Predicting Credit Card Approvals
 Built an automatic credit card approval predictor using machine learning techniques.
  
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/credit_cards_approvals_prediction/blob/master/Predicting_credit_cards.ipynb)
