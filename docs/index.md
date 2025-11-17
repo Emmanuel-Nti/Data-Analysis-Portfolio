@@ -5,8 +5,8 @@
 
  <video controls>
   <source src="cover.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
+
  # Project: Customer Churn Prediction and Retention Strategy
 As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
 
