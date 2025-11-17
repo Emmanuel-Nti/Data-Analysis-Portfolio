@@ -1,7 +1,7 @@
 <p align="center">
   <img 
      alt="Portfolio Preview Animation"
-     src="image/Business-knti.gif?v=3" 
+     src="image/cover.gif?v=4" 
      width="1280" 
      height="550"
   >
