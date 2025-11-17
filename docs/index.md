@@ -7,8 +7,7 @@
   >
 </p>
 
-
- # Project: Customer Churn Prediction and Retention Strategy
+# Project: Customer Churn Prediction and Retention Strategy
 As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
 
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/customer_churn_prediction_and_retention_strategy/blob/master/customer_churn_nti.ipynb)
