@@ -1,7 +1,7 @@
 <p align="center">
   <img 
-     alt="Portfolio Preview Animation Setup"
-     src="image/Cover.gif?v=6" 
+     alt="This has changed"
+     src="image/Cover.gif?v=7" 
      width="1280" 
      height="550"
   >
