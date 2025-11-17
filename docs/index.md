@@ -52,6 +52,46 @@ Targeting the top 40% of the customers, we would capture about 95% of clients wh
 ![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)
 
+# 📌 Project: A/A/B Test to Inform Business Decisions
+Investigated user behavior for a company's app, and conducted an A/A/B test to assist managers to make an informed business decision.
+
+## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/aab_testing/blob/master/AAB_testing.ipynb)
+
+#### User Distribution by Group
+All groups were present at all times for the test.
+ <p align ="center">
+   <img src = "image/group distribution.PNG" width="850" 
+     height="450">
+ </p>
+ 
+#### User Behaviour
+The funnel shows stages of customers' behavior on the app. The group sizes at each stage indicate the data was split approximately equally.
+<p align ="center">
+   <img src = "image/customerjourney.png">
+ </p>
+ 
+#### 📊 General Findings
+- In preparing the data for analysis, missing values were checked, and about 0.17% of duplicates were found in the data and deleted. 
+- I ensured no participant belong to more than one group, and columns were converted to the required data types.
+- There were 7551 unique users in the logs, 5 types of events, and 243713 events in the logs.
+- The data spanned a period of about two weeks. The minimum date was 2019-07-25 00:00:00, and the maximum date was 2019-08-07 00:00:00.
+- The data was comparatively incomplete from 2019-07-25 to 2019-07-31. From 2019-08-01, the data was comparatively complete. Hence, I chose to keep data from the period 2019-08-01 and ignored the earlier section, i.e. from 2019-07-25 to 2019-07-31.
+- The event funnel was studied. Users initially visit the main screen, followed by an offer screen, then a cart screen is offered, and payment is made. At the last stage, an optional tutorial is provided. Ignoring this order, and following the order based on how the data is sorted by the number of users and its' importance; the stage with the most users is lost, which is from the main screen stage to the offer screen (about 38%).
+- The share of users that make the entire journey from their first event to payment is about 47% (high conversion rate). This can be boosted by:
+  - Conducting an A/B test for each event to reveal the stage of the event where conversion of the service can significantly be enhanced.
+  - Using a conversion rate optimization (CRO) planner, shortening forms, increasing trust and removing friction, etc. For instance, the conversion rate at the tutorial stage is not encouraging and should be considered for removal as it is contributing to a lower conversion.
+- There is no statistically significant difference between groups A1 and A2 which implies the groups were split properly.
+- There is also no statistically significant difference between groups A and B which implies the test was not successful.
+
+#### 🎯 Recommendation
+- There is no difference between the groups. Hence, do not change the fonts for the entire app.
+
+#### Software and Tools
+![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scipy-Datetime-informational?style=flat&color=2bbc8a)
+
 # 📌 Project: Business Review of Markets Across the World Economy
 <p align ="center">
    <img src = "image/dashboard.PNG" width="1000" 
@@ -62,7 +102,7 @@ Targeting the top 40% of the customers, we would capture about 95% of clients wh
 #### Software and Tools
 ![](https://img.shields.io/badge/Tableau-Public-informational?style=flat&color=2bbc8a)
 
-# Project: Business Metrics of Yandex Afisha
+# 📌 Project: Business Metrics of Yandex Afisha
  As a Junior Data Analyst in the analytical department at Yandex. I analyzed the business metrics of the Yandex Afisha app to help the marketing experts optimize marketing expenses.
  
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/cohorts_analysis.ipynb) 
@@ -180,46 +220,6 @@ About 99% of the products were sold together with others.
 ![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)  
 ![](https://img.shields.io/badge/Itertools-Matplotlib-informational?style=flat&color=2bbc8a)
 
-# 📌 Project: A/A/B Test to Inform Business Decisions
-Investigated user behavior for a company's app, and conducted an A/A/B test to assist managers to make an informed business decision.
-
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/aab_testing/blob/master/AAB_testing.ipynb)
-
-#### User Distribution by Group
-All groups were present at all times for the test.
- <p align ="center">
-   <img src = "image/group distribution.PNG" width="850" 
-     height="450">
- </p>
- 
-#### User Behaviour
-The funnel shows stages of customers' behavior on the app. The group sizes at each stage indicate the data was split approximately equally.
-<p align ="center">
-   <img src = "image/customerjourney.png">
- </p>
- 
-#### 📊 General Findings
-- In preparing the data for analysis, missing values were checked, and about 0.17% of duplicates were found in the data and deleted. 
-- I ensured no participant belong to more than one group, and columns were converted to the required data types.
-- There were 7551 unique users in the logs, 5 types of events, and 243713 events in the logs.
-- The data spanned a period of about two weeks. The minimum date was 2019-07-25 00:00:00, and the maximum date was 2019-08-07 00:00:00.
-- The data was comparatively incomplete from 2019-07-25 to 2019-07-31. From 2019-08-01, the data was comparatively complete. Hence, I chose to keep data from the period 2019-08-01 and ignored the earlier section, i.e. from 2019-07-25 to 2019-07-31.
-- The event funnel was studied. Users initially visit the main screen, followed by an offer screen, then a cart screen is offered, and payment is made. At the last stage, an optional tutorial is provided. Ignoring this order, and following the order based on how the data is sorted by the number of users and its' importance; the stage with the most users is lost, which is from the main screen stage to the offer screen (about 38%).
-- The share of users that make the entire journey from their first event to payment is about 47% (high conversion rate). This can be boosted by:
-  - Conducting an A/B test for each event to reveal the stage of the event where conversion of the service can significantly be enhanced.
-  - Using a conversion rate optimization (CRO) planner, shortening forms, increasing trust and removing friction, etc. For instance, the conversion rate at the tutorial stage is not encouraging and should be considered for removal as it is contributing to a lower conversion.
-- There is no statistically significant difference between groups A1 and A2 which implies the groups were split properly.
-- There is also no statistically significant difference between groups A and B which implies the test was not successful.
-
-#### 🎯 Recommendation
--  Stop the test, there is no difference between the groups. Hence, do not change the fonts for the entire app.
-
-#### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scipy-Datetime-informational?style=flat&color=2bbc8a)
-
 # 📌 Project: A/B Test for an International Online Store
 I have received an analytical task from an international online store. I have to launch an A/B test and give insights into changes related to the introduction of an improved recommendation system.
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/ab_test_for_an_international_online_store/blob/master/ab_test_for_international_store.ipynb)
@@ -247,7 +247,7 @@ Cumulative revenue from Group A exceeds Group B
 - There is a statistically significant difference between groups A and B which implies the test was successful.
 
 #### 🎯 Recommendations
-- Stop the test, there is a significant difference between the groups. However, group A significantly exceeds Group B in number of customers and revenue. 
+- There is a significant difference between the groups. However, group A significantly exceeds Group B in number of customers and revenue. 
 - Thus, there will be a reduction in purchases with the introduction of the improved recommendation system; do not introduce the recommendation system.
 
 #### Software and Tools
@@ -289,7 +289,7 @@ Customers in deciles 7-10 have less than a 50 % chance of getting their credit c
 ![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Seaborn-Scikit_plot-informational?style=flat&color=2bbc8a) 
 
-# Project: Video Games Sales Analysis 
+# 📌 Project: Video Games Sales Analysis 
 I analyzed video game sales data to identify patterns that determine whether a game succeeds or not.
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/video_games_sales_analysis/blob/master/Video_Games_Sales_Analysis_Nti.ipynb) 
 
