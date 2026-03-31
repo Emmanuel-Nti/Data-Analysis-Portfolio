@@ -1,10 +1,10 @@
-<p align="center">
-  <img 
-     alt="Refresh"
-     src="image/Cover_nti.gif?v=1" 
-     width="1280" 
-     height="550">
-</p>
+# Senior Data Analyst
+
+### Turning data into insights to drive smarter business decisions
+
+---
+
+A portfolio showcasing projects that tackle business challenges through experimentation, customer behavior analysis, and growth-focused analytics.
 
 
 # 📌 Project: Customer Churn Prediction and Retention Strategy
