@@ -1,10 +1,20 @@
-# Senior Data Analyst
+<p align="center">
+   <img src="image/clusters.PNG?v=9" alt="Customer Clusters" style="max-width:100%;">
+</p>
 
-### Turning data into insights to drive smarter business decisions
+# 👋 Welcome to My Data Analysis Portfolio
+
+I’m Emmanuel Nti, a **Senior Data Analyst** passionate about solving business problems through data.  
+This portfolio showcases **data-driven projects in experimentation, customer behavior, and growth analytics**, with actionable insights to inform strategy and decision-making.
 
 ---
 
-A portfolio showcasing projects that tackle business challenges through experimentation, customer behavior analysis, and growth-focused analytics.
+### Featured Focus Areas
+- **Customer Analytics & Retention:** Cohort analysis, churn prediction, and retention strategies.  
+- **Experimentation & Testing:** A/A/B tests to guide product and business decisions.  
+- **Business & Market Insights:** Dashboards, product range analysis, and predictive modeling to uncover patterns and opportunities.
+
+Explore the projects below to see the analyses, insights, and solutions in action.
 
 
 # 📌 Project: Customer Churn Prediction and Retention Strategy
