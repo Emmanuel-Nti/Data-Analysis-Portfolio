@@ -23,13 +23,13 @@ As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain an
 Customers can be optimally classified into 5 clusters
 
 <p align="center">
-   <img src="image/clusters2.PNG?v=8" alt="Customer Clusters" style="max-width:100%;">
+   <img src="image/clusters_v1.PNG?v=8" alt="Customer Clusters" style="max-width:100%;">
 </p>
 
 #### Churn Prediction 
 Targeting the top 40% of the customers, we would capture about 95% of clients who would churn.
  <p align ="center">
-   <img src = "image/cummulative gains.PNG" width="800" 
+   <img src = "image/cummulative gains_v1.PNG" width="800" 
      height="500">
  </p>
  
