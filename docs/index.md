@@ -1,6 +1,3 @@
-<p align="center">
-   <img src="image/clusters.PNG?v=9" alt="Customer Clusters" style="max-width:100%;">
-</p>
 
 # 👋 Welcome to My Data Analysis Portfolio
 
@@ -26,7 +23,7 @@ As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain an
 Customers can be optimally classified into 5 clusters
 
 <p align="center">
-   <img src="image/clusters.PNG?v=8" alt="Customer Clusters" style="max-width:100%;">
+   <img src="image/clusters2.PNG?v=8" alt="Customer Clusters" style="max-width:100%;">
 </p>
 
 #### Churn Prediction 
