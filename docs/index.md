@@ -15,7 +15,7 @@ Explore the projects below to see the analyses, insights, and solutions in actio
 
 
 # 📌 Project: Customer Churn Prediction and Retention Strategy
-As a Stragegy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
+As a Strategy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
 
 ## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/customer_churn_prediction_and_retention_strategy/blob/master/customer_churn_nti.ipynb)
 
@@ -37,26 +37,18 @@ Targeting the top 40% of the customers, we would capture about 95% of clients wh
  </p>
  
 #### 📊 General Findings
-- The total number of customers living near the gym is 5× higher than those living far away. >50% of distant customers churn, compared to <50% of nearby customers.
-- More than 50% of customers are employees of partner companies. ~50% of non-partner customers churn vs. ~20% of partner-company customers.
-- More customers join without promo friends, but those who join via promo friends churn significantly less.
-- Most customers sign 1-month contracts. >70% of 1-month contract customers churn, while <5% of 12-month contract customers churn. No customers choose 3-month contracts.
-- Younger customers churn more than older customers.
-- Longer-tenured customers churn less than new customers.
-- There are 5 optimal customer clusters.
-- Clusters 3 and 4 have the highest churn risk, while Clusters 1 and 2 show stronger loyalty.
-- Overall churn rate is about 27%.
-- About 95% of churners fall within the top 40% high-risk customers.
+- Contract structure is the strongest driver of churn: short-term (1-month) members show very high churn (>70%), while long-term (12-month) contracts have near-full retention (<5% churn).
+- Acquisition channels differ in quality: partner-company customers and referral-based signups have significantly lower churn, indicating higher-intent segments.
+- Geographic proximity impacts retention, with customers living farther from the gym exhibiting materially higher churn.
+- Churn is higher among newer and younger customers, pointing to gaps in early-stage engagement and onboarding.
+- Churn is highly concentrated and predictable: ~95% of churners fall within the top 40% high-risk segment, with specific clusters driving most attrition.
 
 #### 🎯 Recommendations
-- Focus retention campaigns on the top 40% of high-risk customers, potentially retaining up to 95% of churners.
-- Promote and incentivize 12-month contracts to reduce churn among short-term members.
-- Provide proactive engagement and personalized offers for Clusters 3 and 4.
-- Introduce structured loyalty programs, including rewards and referral incentives.
-- Develop initiatives targeting younger customers, such as flexible plans or youth-focused promotions.
-- Strengthen or expand partner company relationships to increase the base of low-churn customers.
-- Encourage friend-referral or promo-friend campaigns to reduce churn among new members.
-
+- Focus retention efforts on the top 40% high-risk segment using predictive targeting to maximize impact.
+- Encourage migration to longer-term contracts through incentives or bundled offerings to reduce churn structurally.
+- Rebalance acquisition toward partner and referral channels to improve customer quality and long-term retention.
+- Strengthen early lifecycle engagement through onboarding and targeted interventions, particularly for newer and younger customers.
+  
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
@@ -82,21 +74,17 @@ The funnel shows stages of customers' behavior on the app. The group sizes at ea
  </p>
  
 #### 📊 General Findings
-- In preparing the data for analysis, missing values were checked, and about 0.17% of duplicates were found in the data and deleted. 
-- I ensured no participant belong to more than one group, and columns were converted to the required data types.
-- There were 7551 unique users in the logs, 5 types of events, and 243713 events in the logs.
-- The data spanned a period of about two weeks. The minimum date was 2019-07-25 00:00:00, and the maximum date was 2019-08-07 00:00:00.
-- The data was comparatively incomplete from 2019-07-25 to 2019-07-31. From 2019-08-01, the data was comparatively complete. Hence, I chose to keep data from the period 2019-08-01 and ignored the earlier section, i.e. from 2019-07-25 to 2019-07-31.
-- The event funnel was studied. Users initially visit the main screen, followed by an offer screen, then a cart screen is offered, and payment is made. At the last stage, an optional tutorial is provided. Ignoring this order, and following the order based on how the data is sorted by the number of users and its' importance; the stage with the most users is lost, which is from the main screen stage to the offer screen (about 38%).
-- The share of users that make the entire journey from their first event to payment is about 47% (high conversion rate). This can be boosted by:
-  - Conducting an A/B test for each event to reveal the stage of the event where conversion of the service can significantly be enhanced.
-  - Using a conversion rate optimization (CRO) planner, shortening forms, increasing trust and removing friction, etc. For instance, the conversion rate at the tutorial stage is not encouraging and should be considered for removal as it is contributing to a lower conversion.
-- There is no statistically significant difference between groups A1 and A2 which implies the groups were split properly.
-- There is also no statistically significant difference between groups A and B which implies the test was not successful.
+- Data quality checks confirmed reliable experimentation: no cross-group contamination and consistent group distributions, validating the integrity of the A/A/B test setup.
+- User funnel analysis shows the largest drop-off occurs early in the journey (main screen → offer stage, ~38%), indicating a key friction point in initial user engagement.
+- End-to-end conversion is relatively strong (~47%), suggesting the core product experience is effective once users progress beyond the initial stages.
+- Certain stages (e.g., tutorial) underperform and contribute negatively to conversion, highlighting potential unnecessary friction in the user journey.
+- No statistically significant differences were observed between A1 and A2 (A/A test) or between A and B, indicating both correct test randomization and no measurable impact from the tested change.
 
-#### 🎯 Recommendation
-- There is no difference between the groups. Hence, do not change the fonts for the entire app.
-
+#### 🎯 Recommendations
+- Do not roll out the tested change, as it does not deliver a statistically significant improvement over the control.
+- Prioritize optimization of early funnel stages (main screen → offer) where the largest user drop-off occurs.
+- Simplify or remove low-performing steps (e.g., tutorial) to reduce friction and improve conversion.
+- Implement targeted A/B tests at specific funnel stages to isolate and improve conversion bottlenecks.
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
