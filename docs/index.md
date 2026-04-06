@@ -1,18 +1,12 @@
 
-# 👋 Welcome to My Data Analysis Portfolio
-
-I’m Emmanuel Nti, a **Senior Data Analyst** passionate about solving business problems through data.  
-This portfolio showcases **data-driven projects in experimentation, customer behavior, and growth analytics**, with actionable insights to inform strategy and decision-making.
-
----
-
-### Featured Focus Areas
+### 🎯 Featured Focus Areas of my Projects
 - **Customer Analytics & Retention:** Cohort analysis, churn prediction, and retention strategies.  
 - **Experimentation & Testing:** A/A/B tests to guide product and business decisions.  
 - **Business & Market Insights:** Dashboards, product range analysis, and predictive modeling to uncover patterns and opportunities.
 
 Explore the projects below to see the analyses, insights, and solutions in action.
 
+---
 
 # 📌 Project: Customer Churn Prediction and Retention Strategy
 As a Strategy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
