@@ -148,22 +148,17 @@ May 2018 cohort had the lowest return on investments. No cohort has recouped 100
  </p>
 
 #### 📊 General Findings
-- On average, about 907 people use the Yandex Afisha app every day, about 5621 people use it every week, and about 23228 people use it every month.
-- The highest daily visits occur on a Black Friday and the lowest daily visits occur on a holiday
-- On average, there is about 1 session per day, and each session lasts about 60 seconds.
-- By the first month (month 1), all cohorts had retention rates of less than 10%. None of the May 2018 cohort came back after their first visit. Only June 2017 cohort was retained till month 11.
-- The December 2017 users made about 4400 orders (the highest), this is followed by October 2017, and November 2017. Users in the months of June, July, and August have the least number of orders.
-- On average, people start buying within 0 minutes (immediately), and the average purchase size is about 5.00 dollars.
-- The June 2017 cohort contributed the longest time but the September 2017 cohort had the highest LTV. May and June 2018 cohorts had the least LTVs.
-- CAC per month/cohorts shows uniform but different costs for each cohort. The August 2017 cohort had the highest cost in a given month while the May 2018 cohort had the least.
-- Users of platforms/source 1 and 2 bring in the highest revenue, and users of platform 7 bring in the least.
-- Platform 3 has the highest cost but it is amongst the least revenue generators.
-- Platforms 1 and 2 bring in the highest revenue, and amongst the least in cost. They are the most profitable platforms.
-- The investments in all the sources are not yet worthwhile as the highest (source 1) is yet to recoup 100% of the investment. Also, investments by cohorts are not yet worthwhile.
+- The app demonstrates a stable but modest user base (~23K MAU), with sharp traffic spikes driven by major commercial events (e.g., Black Friday), indicating high dependence on campaign-driven acquisition rather than consistent organic engagement.
+- User engagement is shallow: sessions average ~1 per day and ~60 seconds, suggesting limited content interaction and low perceived value beyond initial entry points.
+- Retention is critically low across all cohorts (<10% by month 1), with most users churning immediately after the first visit—highlighting a fundamental gap in product stickiness and lifecycle engagement.
+- Revenue is concentrated in a few high-performing cohorts and acquisition sources, with strong seasonality (Q4 peaks), while summer cohorts underperform—indicating demand sensitivity to external factors and inconsistent user quality.
+- Marketing efficiency is imbalanced: top-performing sources (1 & 2) deliver high revenue at relatively low cost, while others (notably source 3) show poor ROI; overall, no cohort has yet achieved full CAC payback, signaling unprofitable growth.
 
 #### 🎯 Recommendations
-- Invest more in sources 1 and 2, and cut costs on platform 3; without platform 3, revenues would exceed cost.
-- Introduce strategies to boost retention rate; improve user experience with the app.
+- Reallocate marketing spend toward high-ROI channels (sources 1 & 2) and systematically reduce or pause underperforming channels (e.g., source 3) until efficiency improves.
+- Address retention as the primary growth constraint by introducing lifecycle interventions (onboarding optimization, personalized recommendations, and re-engagement campaigns) to improve post-first-visit return rates.
+- Increase user engagement depth by enhancing in-app discovery and content value (e.g., event recommendations, reminders, or curated experiences) to extend session duration and frequency.
+- Shift performance measurement toward unit economics by tracking cohort-level CAC payback and LTV/CAC ratios, and using these to guide budget allocation and scaling decisions.
 
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
@@ -187,31 +182,20 @@ About 99% of the products were sold together with others.
  </p>
 
 #### 📊 General Findings
-- The highest unit price of a product cost £38,970.00.
-- The unit price had a mean of about £4.60.
-- Invoice number 573585 had the highest number of products ordered (1113 products). The top ten invoices show the customers of the store are mostly wholesalers.
-- Kitchenware is the most frequently purchased category, and plant and accessories are the least frequently purchased category.
-- The highest daily orders were on November 30th, 2018, followed by November 15th, 2019 (141 and 136 orders respectively). The lowest daily order was on 4th February 2019 - just 11 orders.
-- The number of total monthly orders from December 2018 to November 2019 increased by about 121%.
-- Revenues are comparatively lower from January to July and higher from August to November.
-- Regency Cakestand 3 tier and paper craft little birdie are the top two products in terms of revenue generation. Regency Cakestand 3 tier generated revenue amounting to about £174,200.00 - the highest.
-- The most canceled product order is Regency Cakestand 3 tier - canceled 180 times.
-- On average, paper craft little birdie generated the highest revenue - about £168,469.00.
-- On average, Kitchen ware generated the least revenue - about £18 while home decorations generated the highest- about £23.
-- There were 1501 products that were sold by themselves. The rabbit night light was sold alone 32 times- the most sold alone product.
-- About 99.7% of the products were sold together with others - additional assortment.
-- Jumbo bag and pink polka dot and jumbo bag red retro spot were the products most often sold together.
-- White hanging heart t-light holder was the product sold the most with others - about 2300 times. Kitchenware was most often included in additional assortment (about 152,610 times) and plant and accessories were the least - about 15,840 times.
-- Event and party category was mostly present in shopping carts with Kitchenware.
-- The difference between average revenue from home decorations and Kitchenware was statistically significant.
-- The average revenue generated by papercraft little birdie is not statistically and significantly different from the average revenue from all other products.
+- Product prices vary widely, with the highest at £38,970.00 and an average unit price of ~£4.60, reflecting a mix of high-value and low-cost items in the catalog.
+- Large-volume orders are driven by wholesalers, evidenced by invoice 573585 containing 1,113 products; the top ten invoices confirm the store’s dependence on bulk buyers.
+- Kitchenware is the most frequently purchased category, while plant and accessories are the least, highlighting strong category-level demand disparities.
+- Total monthly orders increased by ~121% from December 2018 to November 2019, with revenues higher from August to November, reflecting clear seasonal effects.
+- Regency Cakestand 3 tier and paper craft little birdie are the top revenue-generating products (£174,200 and £168,469 respectively), while home decorations generates the highest average revenue (~£23 per unit).
+- A vast majority of products (99.7%) are purchased as part of additional assortments, highlighting strong cross-selling opportunities and customer interest in complementary products.
+- Certain product pairings dominate additional assortments (e.g., Jumbo bag and pink polka dot with Jumbo bag red retro spot), with Kitchenware most frequently included (~152,610 times).
 
 #### 🎯 Recommendations
-- Since about 99.7% of products are included in the additional assortment, there is a need to create a product recommendation system.
-- Home decorations is the third most purchased category but has the highest average revenue. Hence, invest more in advertising home decorations to boost purchase rates and revenue.
-- As plant and accessories are the least frequently purchased category, increase advertising investment to enhance orders.
-- Regency Cakestand 3 tier is the leading revenue generator on aggregate but the most canceled product order. Pay much attention to this product. For instance, why does it often get canceled? If the cancellation rate is minimized, revenue would be maximized.
-
+- Implement a product recommendation system leveraging co-purchase patterns (99.7% of products sold with others) to increase basket size and cross-sell effectiveness.
+- Increase marketing investment in home decorations, which has high revenue per unit despite moderate purchase frequency, to maximize revenue impact.
+- Expand advertising for plant and accessories to increase order frequency and diversify revenue sources across categories.
+- Investigate the high cancellation rate for Regency Cakestand 3 tier (180 cancellations) and implement measures to reduce cancellations, as minimizing this would significantly improve revenue.
+  
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-MS_PowerPoint-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Pandas-Numpy-informational?style=flat&color=2bbc8a)
@@ -235,19 +219,15 @@ Cumulative revenue from Group A exceeds Group B
  </p>
  
 #### 📊 General Findings
-- EU participants dominated all other regions in the sample.
-- The maximum order total for purchase events is about $500.00, and the minimum is about $5.00, with a mean of about $23.88 and a standard deviation of about 72.22.
-- About 66% of users proceed from login to the product page; about 50% of those at the product page proceed to purchase.
-- About 15% of customers proceed to purchase without putting the product in the cart.
-- About 33.33% of users convert.
-- In the initial test by my predecessor, 441 users belonged to both groups, and 446 users participated in both tests.
-- The highest number of events occurred on the 21st of December 2020 (14044 events).
-- 8961 participants; representing about 23% of the new users on or before 21st December 2020, from the EU region were used for the test.
-- There is a statistically significant difference between groups A and B which implies the test was successful.
+- The test sample was dominated by EU participants, representing ~23% of new users on or before 21st December 2020, ensuring the results primarily reflect EU customer behavior.
+- User behavior shows clear drop-offs: ~66% of users proceed from login to product page, and only ~50% of those proceed to purchase, while ~15% purchase without adding items to the cart.
+- Overall conversion rate across the test is ~33.3%.
+- The maximum order value is ~$500, the minimum ~$5, with a mean of ~$23.88 (SD ~72.22), indicating a wide variance in purchase sizes.
+- A statistically significant difference was observed between groups A and B, confirming that the test was correctly randomized and capable of detecting differences.
 
 #### 🎯 Recommendations
-- There is a significant difference between the groups. However, group A significantly exceeds Group B in number of customers and revenue. 
-- Thus, there will be a reduction in purchases with the introduction of the improved recommendation system; do not introduce the recommendation system.
+- Group A outperforms Group B in both the number of customers and revenue generated.
+- Introducing the improved recommendation system is expected to reduce purchases; therefore, do not implement the change in the current form.
 
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
@@ -268,19 +248,15 @@ Customers in deciles 7-10 have less than a 50 % chance of getting their credit c
  </p>
  
 #### 📊 General Findings
-- More than 50% of credit card applications get approved.
-- Males apply for credit cards more than females.
-- Most credit card applicants are between the ages of 20 and 40. This age group also has more credit card approvals than the other age groups.
-- Applicants aged above 60 years are the least to apply for credit cards and the ones who are less likely to have their credit cards approved.
-- The smaller a customer's debt, the higher the chances of a credit card approval.
-- The model has about 88% accuracy in predicting credit card approval. 
-- Top 10% of customers have about 80% probability that their credit cards would be approved.
-- Customers in deciles 1-6 have more than a 50% chance that their credit cards would be approved.
-- Customers in deciles 7-10 have less than a 50 % chance of getting their credit cards approved.
+- Over 50% of credit card applications are approved, with approval likelihood strongly correlated with debt size: smaller debt increases approval probability.
+- Applicants are predominantly aged 20–40, who also have the highest approval rates; applicants over 60 are the least likely to apply and have the lowest approval probability.
+- Male applicants submit more applications than females, reflecting demographic differences in credit card demand.
+- The predictive model achieves ~88% accuracy, with the top 10% of customers having ~80% probability of approval.
+- Deciles 1–6 of applicants have more than a 50% chance of approval, while deciles 7–10 have less than a 50% chance.
 
 #### 🎯 Recommendations
-- Approve credit cards of customers in deciles 1-6.
-- Do not approve the credit cards of customers in deciles 7-10.
+- Approve credit card applications for customers in deciles 1–6 to maximize acceptance rates and minimize risk.
+- Do not approve applications for customers in deciles 7–10, as their likelihood of approval is low and risk is higher.
 
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-MS_Excel-informational?style=flat&color=2bbc8a)
@@ -305,24 +281,18 @@ The PS2 platform is the most profitable platform, the PCFX platform is the least
  </p>
  
 #### 📊 General Findings
-- Before 1994, there was no year that more than 100 games were released. However, from 1994 to 2016, more than 100 games have been released every year.
-- PS, PS2, and Nintendo DS used to be popular platforms but now have zero sales.
-- Generally, it takes about a year or less for new platforms to appear. On average, old platforms take about 8 years to fade.
-- Atari 2600 platform existed for the longest number of years (35 years)
-- Since 2010, the most profitable platforms are PS3, 3DS, DS, PC, PS4, Wii, X360, and XOne. In sum total, PS3 and X360 are leading in sales.
-- In 2016, all platforms had experienced their peak sales and started shrinking, but PS4, XOne, and 3DS were leading in sales.
-- Since 2010, average sales on various platforms differed but not significantly different especially among the highest performing platforms as average sales were all below $1 million. PS4 had the highest average sales of about $0.80 million, and the GBA platform had about $0.05 million in sales (the lowest).
-- There is a positive correlation between reviews of platforms and the sale of games.
-- Generally, since 2010, Action genres have been the most profitable considering the sum of total yearly sales. However, on average, the most profitable genre is Shooter. The least profitable game genre is Puzzle.
-- PS3 and X360 platforms dominate sales in Europe and North American markets.
-- Nintendo 3DS and PS3 dominate market share in Japan.
-- The PS3 platform is at least among the top two dominant market shares of games across Europe, North America, and Japan.
-- Action and Shooter genres are dominating the market share of sales in Europe and North America while Role Playing and Action dominate in Japan.
-- Action genre is at least among the top two dominating genres across the three regions.
-- ESRB ratings affect sales in individual regions.
-- Average user ratings of the Xbox One and PC platforms are the same.
-- Average user ratings for the Action and Sports genres are different.
+- Video game releases grew significantly after 1994, with over 100 games released annually from 1994 to 2016, reflecting industry expansion and platform diversification.
+- PS3 and X360 dominate overall sales since 2010, particularly in Europe and North America, while Nintendo 3DS and PS3 lead in Japan.
+- New platforms generally appear within a year, while older platforms take ~8 years to fade; Atari 2600 had the longest lifecycle (35 years), illustrating long-term platform longevity potential.
+- Action and Shooter genres drive the majority of sales globally, with Action consistently among the top two genres across Europe, North America, and Japan; Puzzle is the least profitable genre.
+- Average sales per game are below $1 million across platforms; highest averages are on PS4 (~$0.8M) and lowest on GBA (~$0.05M), while positive correlation exists between user/platform reviews and game sales.
+- ESRB ratings influence sales across regions, suggesting regulatory and content suitability impact consumer purchase behavior.
 
+#### 🎯 Recommendations
+- Focus development and marketing on high-performing platforms (PS3, X360, PS4, 3DS) in their respective dominant regions to maximize sales potential.
+- Prioritize Action and Shooter genres for new releases, while minimizing investment in low-performing genres like Puzzle.
+- Leverage user reviews and platform ratings as key inputs for sales forecasting and marketing prioritization.
+- Consider ESRB ratings strategically in content design and marketing to optimize regional sales performance.
 #### Software and Tools
 ![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
