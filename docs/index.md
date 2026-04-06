@@ -17,7 +17,7 @@ As a Strategy Analyst for Gym, I predicted customer churn for the gym's chain an
 #### Cluster of Customers
 Customers can be optimally classified into 5 clusters
 <p align="center">
-   <img src="image/Cover_nti_v1.PNG?v=10" 
+   <img src="image/Cover_nti_v1.PNG?v=19" 
         alt="Customer Clusters" 
         width="800" 
         height="500" 
