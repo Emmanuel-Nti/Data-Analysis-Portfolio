@@ -285,7 +285,7 @@ The PS2 platform is the most profitable platform, the PCFX platform is the least
 - PS3 and X360 dominate overall sales since 2010, particularly in Europe and North America, while Nintendo 3DS and PS3 lead in Japan.
 - New platforms generally appear within a year, while older platforms take ~8 years to fade; Atari 2600 had the longest lifecycle (35 years), illustrating long-term platform longevity potential.
 - Action and Shooter genres drive the majority of sales globally, with Action consistently among the top two genres across Europe, North America, and Japan; Puzzle is the least profitable genre.
-- Average sales per game are below $1 million across platforms; highest averages are on PS4 (~$0.8M) and lowest on GBA (~$0.05M), while positive correlation exists between user/platform reviews and game sales.
+- Average sales per game are below $1 million across platforms; highest averages are on PS4 (about $0.8M) and lowest on GBA (~$0.05M), while positive correlation exists between user/platform reviews and game sales.
 - ESRB ratings influence sales across regions, suggesting regulatory and content suitability impact consumer purchase behavior.
 
 #### 🎯 Recommendations
