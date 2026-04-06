@@ -1,3 +1,4 @@
+<meta property="og:title" content="{{ site.linkedin_title }}" />
 
 ### 🎯 Featured Focus Areas of my Projects
 - **Customer Analytics & Retention:** Cohort analysis, churn prediction, and retention strategies.  
