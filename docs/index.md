@@ -1,19 +1,87 @@
 <meta property="og:title" content="{{ site.linkedin_title }}" />
 
 ### 🎯 Featured Focus Areas of my Projects
-- **Customer Analytics & Retention:** Cohort analysis, churn prediction, and retention strategies.  
-- **Experimentation & Testing:** A/A/B tests to guide product and business decisions.  
-- **Business & Market Insights:** Dashboards, product range analysis, and predictive modeling to uncover patterns and opportunities.
 
-Explore the projects below to see the analyses, insights, and solutions in action.
+- **Customer Journey & Growth:** Funnel performance, cohort analysis, retention, and customer behavior.  
+- **Product & Market Insights:** Product performance, market trends, and opportunity identification.  
+- **Data Modeling & Experimentation:** Analytical data models, KPI definition, and A/A/B testing.
+
+Explore the projects below to discover the analytical approaches, findings, and recommendations.
 
 ---
+
+# 📌 Project: The Growth Analytics Pipeline: From Data Modeling to Insights
+An end-to-end growth analytics project using Python, DuckDB and dbt to load and transform raw data into analytical marts, define key growth metrics, and generate insights across acquisition, conversion, revenue, and product engagement for a fictional SaaS platform helping organizations manage workplaces and optimize office space usage.
+
+<p align ="center">
+   <img src = "image/01_porject_overview.png" width="1000">
+ </p>
+
+## Project Resources
+
+📘 [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/OfficePulse_Growth_Analytics_Project/blob/master/officepulse/notebooks/officepulse_growth_analysis.ipynb?v=4) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; ✴️ [Interactive dbt Documentation](https://growth-analytics-dbt-docs.netlify.app/#!/overview)
+
+
+## Software and Tools
+
+![](https://img.shields.io/badge/Python-SQL-informational?style=flat&color=2bbc8a) ![](https://img.shields.io/badge/dbt-DuckDB-informational?style=flat&color=2bbc8a) ![](https://img.shields.io/badge/Pandas-Plotly-informational?style=flat&color=2bbc8a) ![](https://img.shields.io/badge/Jupyter-Notebook-informational?style=flat&color=2bbc8a)
+
+## 5 Key Growth Metrics
+
+![](https://img.shields.io/badge/Paid_ROAS-(Cohort_ROAS)-informational?style=flat&color=2bbc8a) ![](https://img.shields.io/badge/Cost_per-Won_Opportunity-informational?style=flat&color=2bbc8a) ![](https://img.shields.io/badge/Lead_to-Opportunity_Rate-informational?style=flat&color=2bbc8a) ![](https://img.shields.io/badge/Opportunity-Win_Rate-informational?style=flat&color=2bbc8a) ![](https://img.shields.io/badge/Won-Revenue-informational?style=flat&color=2bbc8a)
+
+## 📊 Insights
+💡 Marketing investment remained relatively stable across acquisition cohorts, providing a stable baseline for evaluating downstream performance. Despite this, Won Revenue and Paid ROAS varied considerably, while Cost per Won Opportunity peaked in April and May when ROAS was lowest and declined in higher-ROAS cohorts, highlighting substantial differences in acquisition efficiency.
+  <p align ="center">
+   <img src = "image/cohort_performance.PNG" width="850">
+ </p>
+
+💡 Opportunity Win Rate exhibited a similar pattern, suggesting that cohorts with stronger opportunity conversion generally generated higher Won Revenue and marketing efficiency.
+<p align ="center">
+   <img src = "image/cohort_conversion.PNG">
+ </p>
+
+💡 The Display channel consistently achieved the strongest acquisition efficiency, outperforming Paid Search and Paid Social.
+<p align ="center">
+   <img src = "image/channel_efficiency.PNG" width="850">
+ </p>
+ 
+💡 Display's strong channel performance was supported by consistently high-performing campaigns.
+<p align ="center">
+   <img src = "image/campaign_efficiency.PNG" width="850">
+ </p>
+ 
+💡 Lead-to-opportunity conversion emerged as the primary bottleneck across acquisition channels.
+<p align ="center">
+   <img src = "image/Channel_conversion.PNG" width="850">
+ </p>
+ 
+💡 Monthly active users increased overall, while active companies remained relatively stable throughout the reporting period.
+<p align ="center">
+   <img src = "image/active_users.PNG" width="850">
+</p>
+ 
+
+## 🎯 Recommendations and Data Limitations
+
+ <p align ="center">
+   <img src = "image/recommendation.png" width="900">
+
+  <p align ="center">
+   <img src = "image/limitation.png" width="900">
 
 # 📌 Project: Customer Churn Prediction and Retention Strategy
 As a Strategy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
 
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/customer_churn_prediction_and_retention_strategy/blob/master/customer_churn_nti.ipynb)
+## [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/customer_churn_prediction_and_retention_strategy/blob/master/customer_churn_nti.ipynb)
 
+## Software and Tools
+![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)
+
+## 🔍 Exploratory Insights
 #### Cluster of Customers
 Customers can be optimally classified into 5 clusters
 <p align="center">
@@ -44,17 +112,19 @@ Targeting the top 40% of the customers, we would capture about 95% of clients wh
 - Rebalance acquisition toward partner and referral channels to improve customer quality and long-term retention.
 - Strengthen early lifecycle engagement through onboarding and targeted interventions, particularly for newer and younger customers.
   
-#### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)
 
 # 📌 Project: A/A/B Test to Inform Business Decisions
 Investigated user behavior for a company's app, and conducted an A/A/B test to assist managers to make an informed business decision.
 
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/aab_testing/blob/master/AAB_testing.ipynb)
+## [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/aab_testing/blob/master/AAB_testing.ipynb)
 
+## Software and Tools
+![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scipy-Datetime-informational?style=flat&color=2bbc8a)
+
+## 🔍 Exploratory Insights
 #### User Distribution by Group
 All groups were present at all times for the test.
  <p align ="center">
@@ -80,28 +150,19 @@ The funnel shows stages of customers' behavior on the app. The group sizes at ea
 - Prioritize optimization of early funnel stages (main screen → offer) where the largest user drop-off occurs.
 - Simplify or remove low-performing steps (e.g., tutorial) to reduce friction and improve conversion.
 - Implement targeted A/B tests at specific funnel stages to isolate and improve conversion bottlenecks.
-#### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scipy-Datetime-informational?style=flat&color=2bbc8a)
 
-# 📌 Project: Business Review of Markets Across the World Economy
-<p align ="center">
-   <img src = "image/dashboard.PNG" width="1000" 
-     height="650"> 
-</p>
-
-## [Project Link](https://public.tableau.com/app/profile/emmanuel.nti/viz/DashboardonBusinessReview/Dashboard1)
-#### Software and Tools
-![](https://img.shields.io/badge/Tableau-Public-informational?style=flat&color=2bbc8a)
 
 # 📌 Project: Business Metrics of Yandex Afisha
  As a Junior Data Analyst in the analytical department at Yandex. I analyzed the business metrics of the Yandex Afisha app to help the marketing experts optimize marketing expenses.
  
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/cohorts_analysis.ipynb) 
+## [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/Business-Metrics-of-Yandex-Afisha/blob/master/cohorts_analysis.ipynb) 
 
+## Software and Tools
+![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
 
+## 🔍 Exploratory Insights
 #### Daily Visits to Yandex Afisha
 The highest number of visits to the Yandex Afesha app was on Black Friday (24.11.2017). March 31, 2018, was a popular holiday plus observances Worldwide - a holiday can adversely impact visits to Yandex Afisha but black friday stimulated visits.
 <p align ="center">
@@ -155,14 +216,20 @@ May 2018 cohort had the lowest return on investments. No cohort has recouped 100
 - Increase user engagement depth by enhancing in-app discovery and content value (e.g., event recommendations, reminders, or curated experiences) to extend session duration and frequency.
 - Shift performance measurement toward unit economics by tracking cohort-level CAC payback and LTV/CAC ratios, and using these to guide budget allocation and scaling decisions.
 
-#### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Plotly-Matplotlib-informational?style=flat&color=2bbc8a)
+
 
 # 📌 Project: Product Range Analysis
 As a junior analyst at an online store that sells household goods, I analyzed the store's product range for the period 29/11/2018 to 07/12/2019.
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_capstone.ipynb) 
+## [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/Product-Range-Analysis/blob/master/product_range_capstone.ipynb) 
+
+## Software and Tools
+![](https://img.shields.io/badge/Python-MS_PowerPoint-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Pandas-Numpy-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scikit_learn-Collections-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)  
+![](https://img.shields.io/badge/Itertools-Matplotlib-informational?style=flat&color=2bbc8a)
+
+## 🔍 Exploratory Insights
 #### Product Categorization Model
 A near-perfect model was built to categorize the products.
 <p align ="center">
@@ -191,17 +258,19 @@ About 99% of the products were sold together with others.
 - Expand advertising for plant and accessories to increase order frequency and diversify revenue sources across categories.
 - Investigate the high cancellation rate for Regency Cakestand 3 tier (180 cancellations) and implement measures to reduce cancellations, as minimizing this would significantly improve revenue.
   
-#### Software and Tools
-![](https://img.shields.io/badge/Python-MS_PowerPoint-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Pandas-Numpy-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scikit_learn-Collections-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scipy-Scikit_plot-informational?style=flat&color=2bbc8a)  
-![](https://img.shields.io/badge/Itertools-Matplotlib-informational?style=flat&color=2bbc8a)
+
 
 # 📌 Project: A/B Test for an International Online Store
 I have received an analytical task from an international online store. I have to launch an A/B test and give insights into changes related to the introduction of an improved recommendation system.
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/ab_test_for_an_international_online_store/blob/master/ab_test_for_international_store.ipynb)
- 
+
+## [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/ab_test_for_an_international_online_store/blob/master/ab_test_for_international_store.ipynb)
+
+## Software and Tools
+![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scipy-Plotly-informational?style=flat&color=2bbc8a) 
+
+ ## 🔍 Exploratory Insights
 #### Customer Journey
 <p align ="center">
    <img src = "image/Customer Journey.png">
@@ -223,17 +292,20 @@ Cumulative revenue from Group A exceeds Group B
 #### 🎯 Recommendations
 - Group A outperforms Group B in both the number of customers and revenue generated.
 - Introducing the improved recommendation system is expected to reduce purchases; therefore, do not implement the change in the current form.
-
-#### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scipy-Plotly-informational?style=flat&color=2bbc8a)  
+ 
 
 # 📌 Project: Predicting Credit Card Approvals
 Built an automatic credit card approval predictor using machine learning techniques.
  
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/credit_cards_approvals_prediction/blob/master/Predicting_credit_cards.ipynb)
+## [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/credit_cards_approvals_prediction/blob/master/Predicting_credit_cards.ipynb)
 
+## Software and Tools
+![](https://img.shields.io/badge/Python-MS_Excel-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Pandas-Numpy-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Seaborn-Scikit_plot-informational?style=flat&color=2bbc8a) 
+
+## 🔍 Exploratory Insights
 #### Decile Analysis
 The decile analysis shows that the top 10% of customers have about an 80% probability that their credit cards would be approved.
 Customers in deciles 1-6 have more than a 50% chance that their credit cards would be approved. 
@@ -253,16 +325,17 @@ Customers in deciles 7-10 have less than a 50 % chance of getting their credit c
 - Approve credit card applications for customers in deciles 1–6 to maximize acceptance rates and minimize risk.
 - Do not approve applications for customers in deciles 7–10, as their likelihood of approval is low and risk is higher.
 
-#### Software and Tools
-![](https://img.shields.io/badge/Python-MS_Excel-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Pandas-Numpy-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scikit_learn-Matplotlib-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Seaborn-Scikit_plot-informational?style=flat&color=2bbc8a) 
 
 # 📌 Project: Video Games Sales Analysis 
 I analyzed video game sales data to identify patterns that determine whether a game succeeds or not.
-## [Project Link](https://nbviewer.org/github/Emmanuel-Nti/video_games_sales_analysis/blob/master/Video_Games_Sales_Analysis_Nti.ipynb) 
+## [Detailed Analysis Notebook](https://nbviewer.org/github/Emmanuel-Nti/video_games_sales_analysis/blob/master/Video_Games_Sales_Analysis_Nti.ipynb) 
 
+## Software and Tools
+![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
+![](https://img.shields.io/badge/Scipy-Requests-informational?style=flat&color=2bbc8a)  
+
+## 🔍 Exploratory Insights
 #### Number of Games Released in a Year
 The number of games released in a year peaked in 2008 and significantly started falling in 2010.
 <p align ="center">
@@ -288,7 +361,4 @@ The PS2 platform is the most profitable platform, the PCFX platform is the least
 - Prioritize Action and Shooter genres for new releases, while minimizing investment in low-performing genres like Puzzle.
 - Leverage user reviews and platform ratings as key inputs for sales forecasting and marketing prioritization.
 - Consider ESRB ratings strategically in content design and marketing to optimize regional sales performance.
-#### Software and Tools
-![](https://img.shields.io/badge/Python-Pandas-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
-![](https://img.shields.io/badge/Scipy-Requests-informational?style=flat&color=2bbc8a)  
+
