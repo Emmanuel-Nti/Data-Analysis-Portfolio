@@ -69,6 +69,7 @@ An end-to-end growth analytics project using Python, DuckDB and dbt to load and 
 
   <p align ="center">
    <img src = "image/limitation.png" width="900">
+   
 
 # 📌 Project: Customer Churn Prediction and Retention Strategy
 As a Strategy Analyst for Gym, I predicted customer churn for the gym's chain and developed retention strategies.
