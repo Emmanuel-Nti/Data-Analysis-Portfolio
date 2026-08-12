@@ -272,7 +272,7 @@ I have received an analytical task from an international online store. I have to
 ![](https://img.shields.io/badge/Numpy-Seaborn-informational?style=flat&color=2bbc8a)
 ![](https://img.shields.io/badge/Scipy-Plotly-informational?style=flat&color=2bbc8a) 
 
- ## 🔍 Exploratory Insights
+## 🔍 Exploratory Insights
 #### Customer Journey
 <p align ="center">
    <img src = "image/Customer Journey.png">
