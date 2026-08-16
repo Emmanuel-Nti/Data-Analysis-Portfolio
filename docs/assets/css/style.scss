@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+/* Body text */
 p,
 li,
 td,
@@ -11,4 +12,14 @@ blockquote {
   font-family: Calibri, "Segoe UI", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.6;
+  color: #c9c9c9;
+}
+
+/* Bold text within body content */
+p strong,
+li strong,
+td strong,
+th strong,
+blockquote strong {
+  color: #d6d6d6;
 }
