@@ -1,10 +1,10 @@
 <meta property="og:title" content="{{ site.linkedin_title }}" />
 
-### 🎯 Featured Focus Areas of my Projects
+#### 🎯 Featured Focus Areas of my Projects
 
-- **Customer Journey & Growth:** Funnel performance, cohort analysis, retention, and customer behavior.  
-- **Product & Market Insights:** Product performance, market trends, and opportunity identification.  
-- **Data Modeling & Experimentation:** Analytical data models, KPI definition, and A/A/B testing.
+- Customer Journey & Growth: Funnel performance, cohort analysis, retention, and customer behavior.  
+- Product & Market Insights: Product performance, market trends, and opportunity identification.  
+- Data Modeling & Experimentation: Analytical data models, KPI definition, and A/A/B testing.
 
 Explore the projects below to discover the analytical approaches, key findings, and recommendations.
 
